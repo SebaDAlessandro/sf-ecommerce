@@ -1,13 +1,20 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+/* https://www.happyhues.co/palettes/6 */
+:root {
+	--background-white: #fffffe;
+	--background-lightblue: #d1d1e9;
+	--background-blue: #6246ea;
+	--background-dark: #212529;
+	--background-orange: #ffa500;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+	--color-font-title: #2b2c34;
+	--color-font-text: #2b2c34;
+	--color-font-link: #6246ea;
+	--color-font-text-red: #e45858;
+	--color-font-text-white: #fffffe;
+	--color-font-text-orange: #ffa500;
+
+	--font-poppit: 'Poppins', sans-serif;
+	--font-roboto: 'Roboto', sans-serif;
+  }
+
+  

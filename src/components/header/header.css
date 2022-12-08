@@ -1,0 +1,42 @@
+.header__container {
+    position: fixed;
+    z-index: 100;
+    width: 100vw;
+}
+
+.navbar__title, .navbar__admin, .navbar__contact, .navbar__user, .navbar__order, .navbar__login, .navbar__cart {
+    text-decoration: none;
+    padding-top: 11px;
+    padding-right: 20px;
+}
+
+.isActive {
+    color: var(--color-font-text-red);
+    text-decoration: underline;
+}
+
+.noActive {
+    color: var(--color-font-text-white);
+}
+
+.navbar__user {
+    text-decoration: none;
+    color: var(--color-font-text-orange);
+}
+
+.navbar__user-hi {
+    color: var(--color-font-text-white);
+    padding-right: 5px;
+}
+
+.navbar__user:hover {
+    color: var(--color-font-text-orange);
+}
+
+.navbar__admin:hover, .navbar__contact:hover, .navbar__order:hover, .navbar__login:hover, .navbar__cart:hover {
+    color: var(--color-font-text-red);
+}
+
+.navbar__title-span {
+    color: var(--color-font-text-red);
+}

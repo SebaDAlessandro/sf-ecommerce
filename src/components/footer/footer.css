@@ -1,0 +1,14 @@
+.footer__container {
+    height: 11vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-weight: bold;
+    background: var(--background-dark);
+    color: var(--color-font-text-white);
+}
+
+.footer__title {
+    padding-left: 5px;
+}
