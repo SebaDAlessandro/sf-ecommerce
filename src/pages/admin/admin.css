@@ -25,6 +25,11 @@
     transition: 1s;
 }
 
+.tool__link {
+    color: rgb(43, 44, 52);
+    text-decoration: none;
+}
+
 .tool__container:hover {
     transform: scale(0.95);
     background: blue;

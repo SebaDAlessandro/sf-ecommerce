@@ -27,9 +27,12 @@ const Card = () => {
     <div className='card__container'>
         <div className='card_admin-options'>
             <ShowAdmin>
-                <h6>Del</h6>
-                <h6>Upd</h6>
+                <span className="material-symbols-outlined card_admin-icons">delete</span>
+                <span className="material-symbols-outlined card_admin-icons">edit</span>
             </ShowAdmin>
+            <ShowOnLogin>
+                <span className="material-symbols-outlined card_admin-icons">favorite</span>
+            </ShowOnLogin>
         </div>
         <div className='card__details-img'>
             <img className='card__details-img-container' src={imgTest} alt="Product" />

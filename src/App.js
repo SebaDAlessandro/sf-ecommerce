@@ -1,7 +1,7 @@
 import './App.css';
 import { Route, Routes } from 'react-router-dom'
 import { Header, Footer } from './components'
-import { Admin, Contact, Home, Login, Register, Reset } from './pages'
+import { Admin, Contact, Home, Login, Register, Reset, AddProduct } from './pages'
 
 
 function App() {
@@ -15,6 +15,7 @@ function App() {
         <Route path='/register' element={<Register />} />
         <Route path='/reset' element={<Reset />} />
         <Route path='/admin' element={<Admin />} />
+        <Route path='/admin/addProduct' element={<AddProduct />} />
       </Routes>
       <Footer />
     </div>

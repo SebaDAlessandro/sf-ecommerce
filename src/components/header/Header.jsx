@@ -70,7 +70,7 @@ const Header = () => {
         }
       }
     });
-  },[])
+  },[dispatch])
 
   const logoutUser = ()=>{
     signOut(auth).then(() => {

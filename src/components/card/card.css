@@ -6,13 +6,19 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    transition: 0.6s;
+    /* transition: 0.6s; */
 }
 
 .card_admin-options {
     display: flex;
     justify-content: space-around;
     padding: 5px 0;
+}
+
+.card_admin-icons {
+    background: white;
+    border-radius: 30px;
+    padding: 5px;
 }
 
 .card__details-img {
@@ -51,6 +57,6 @@
     padding: 5px 0;
 }
 
-.card__container:hover {
+/* .card__container:hover {
     transform: scale(1.03);
-}
+} */
